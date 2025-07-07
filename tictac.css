@@ -63,3 +63,10 @@ body{
 .hide{
     display: none;
 }
+.o-color {
+    color: #2e8b57; 
+}
+
+.x-color {
+    color: #b0413e;
+}

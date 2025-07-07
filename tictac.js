@@ -25,10 +25,16 @@ boxes.forEach((box) => {
         box.addEventListener("click", () => {
             if(turnO){ //player O
                 box.innerText="O";
+                         
+                box.classList.remove("x-color");
+                box.classList.add("o-color");
+
                 turnO=false;
             }
             else{
                 box.innerText="x";
+                box.classList.remove("o-color");
+                box.classList.add("x-color");
                 turnO=true;
             }
             box.disabled=true;
